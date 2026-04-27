@@ -1,0 +1,182 @@
+{
+    "F1": {
+        "formato_np": "(1/6)*x**6 - (52/25)*x**5 + (39/80)*x**4 + (71/10)*x**3 - (79/20)*x**2 - x + 1/10",
+        "intervallo": [
+            -1.5,
+            11.0
+        ],
+        "L": 13870.0,
+        "latex": "\\frac{1}{6}x^6 - \\frac{52}{25}x^5 + \\frac{39}{80}x^4 + \\frac{71}{10}x^3 - \\frac{79}{20}x^2 - x + \\frac{1}{10}"
+    },
+    "F2": {
+        "formato_np": "np.sin(x) + np.sin((10*x)/3)",
+        "intervallo": [
+            2.7,
+            7.5
+        ],
+        "L": 4.29,
+        "latex": "\\sin x + \\sin \\frac{10x}{3}"
+    },
+    "F3": {
+        "formato_np": "-sum(k * np.sin((k + 1) * x + k) for k in range(1, 6))",
+        "intervallo": [
+            -10.0,
+            10.0
+        ],
+        "L": 67.0,
+        "latex": "-\\sum_{k=1}^{5} k \\sin[(k+1)x + k]"
+    },
+    "F4": {
+        "formato_np": "-(16*x**2 - 24*x + 5) * np.exp(-x)",
+        "intervallo": [
+            1.9,
+            3.9
+        ],
+        "L": 3.0,
+        "latex": "-(16x^2 - 24x + 5) e^{-x}"
+    },
+    "F5": {
+        "formato_np": "(3*x - 1.4) * np.sin(18*x)",
+        "intervallo": [
+            0.0,
+            1.2
+        ],
+        "L": 36.0,
+        "latex": "(3x - 1.4) \\sin 18x"
+    },
+    "F6": {
+        "formato_np": "-(x + np.sin(x)) * np.exp(-x**2)",
+        "intervallo": [
+            -10.0,
+            10.0
+        ],
+        "L": 2.5,
+        "latex": "-(x + \\sin x) e^{-x^2}"
+    },
+    "F7": {
+        "formato_np": "np.sin(x) + np.sin((10*x)/3) + np.log(x) - 0.84*x + 3",
+        "intervallo": [
+            2.7,
+            7.5
+        ],
+        "L": 6.0,
+        "latex": "\\sin x + \\sin \\frac{10x}{3} + \\ln x - 0.84x + 3"
+    },
+    "F8": {
+        "formato_np": "-sum(k * np.cos((k + 1) * x + k) for k in range(1, 6))",
+        "intervallo": [
+            -10.0,
+            10.0
+        ],
+        "L": 67.0,
+        "latex": "-\\sum_{k=1}^{5} k \\cos[(k+1)x + k]"
+    },
+    "F9": {
+        "formato_np": "np.sin(x) + np.sin((2*x)/3)",
+        "intervallo": [
+            3.1,
+            20.4
+        ],
+        "L": 1.7,
+        "latex": "\\sin x + \\sin \\frac{2x}{3}"
+    },
+    "F10": {
+        "formato_np": "-x * np.sin(x)",
+        "intervallo": [
+            0.0,
+            10.0
+        ],
+        "L": 11.0,
+        "latex": "-x \\sin x"
+    },
+    "F11": {
+        "formato_np": "2 * np.cos(x) + np.cos(2*x)",
+        "intervallo": [
+            -1.57,
+            6.28
+        ],
+        "L": 3.0,
+        "latex": "2 \\cos x + \\cos 2x"
+    },
+    "F12": {
+        "formato_np": "np.sin(x)**3 + np.cos(x)**3",
+        "intervallo": [
+            0.0,
+            6.28
+        ],
+        "L": 2.2,
+        "latex": "\\sin^3 x + \\cos^3 x"
+    },
+    "F13": {
+        "formato_np": "-np.cbrt(x**2) + np.cbrt(x**2 - 1)",
+        "intervallo": [
+            0.001,
+            0.99
+        ],
+        "L": 8.5,
+        "latex": "-x^{2/3} + (x^2 - 1)^{1/3}"
+    },
+    "F14": {
+        "formato_np": "-np.exp(-x) * np.sin(2 * np.pi * x)",
+        "intervallo": [
+            0.0,
+            4.0
+        ],
+        "L": 6.5,
+        "latex": "-e^{-x} \\sin(2 \\pi x)"
+    },
+    "F15": {
+        "formato_np": "(x**2 - 5*x + 6) / (x**2 + 1)",
+        "intervallo": [
+            -5.0,
+            5.0
+        ],
+        "L": 6.5,
+        "latex": "\\frac{x^2 - 5x + 6}{x^2 + 1}"
+    },
+    "F16": {
+        "formato_np": "2*(x - 3)**2 + np.exp(0.5 * x**2)",
+        "intervallo": [
+            -3.0,
+            3.0
+        ],
+        "L": 85.0,
+        "latex": "2(x - 3)^2 + e^{0.5x^2}"
+    },
+    "F17": {
+        "formato_np": "x**6 - 15*x**4 + 27*x**2 + 250",
+        "intervallo": [
+            -4.0,
+            4.0
+        ],
+        "L": 2520.0,
+        "latex": "x^6 - 15x^4 + 27x^2 + 250"
+    },
+    "F18": {
+        "formato_np": "np.where(x <= 3, (x - 2)**2, 2 * np.log(x - 2) + 1)",
+        "intervallo": [
+            0.0,
+            6.0
+        ],
+        "L": 4.0,
+        "latex": "\\begin{cases} (x - 2)^2, & x \\le 3 \\\\ 2 \\ln(x - 2) + 1, & x > 3 \\end{cases}"
+    },
+    "F19": {
+        "formato_np": "-x + np.sin(3*x) - 1",
+        "intervallo": [
+            0.0,
+            6.5
+        ],
+        "L": 4.0,
+        "latex": "-x + \\sin 3x - 1"
+    },
+    "F20": {
+        "formato_np": "(np.sin(x) - x) * np.exp(-x**2)",
+        "intervallo": [
+            -10.0,
+            10.0
+        ],
+        "L": 1.3,
+        "latex": "(\\sin x - x) e^{-x^2}"
+    }
+}
