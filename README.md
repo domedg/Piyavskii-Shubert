@@ -2,7 +2,11 @@
 
 Una dashboard interattiva basata su **Python e Streamlit** per risolvere e visualizzare problemi di *Ottimizzazione Globale Deterministica* usando l'algoritmo di Piyavskii-Shubert per funzioni Lipschitziane.
 
-![Demo Video](./piyavskii_demo.webp)
+
+
+https://github.com/user-attachments/assets/e3bdcbcc-3259-4834-bb38-2b6e5829b719
+
+
 
 ## ✨ Features
 - **Piyavskii-Shubert 1D**: Algoritmo globalmente infallibile per minmizzare funzioni *black-box* a densità multimodale.
